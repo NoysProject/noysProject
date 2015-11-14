@@ -12,6 +12,18 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>Mtaprojnoy2015</servlet-name>
 		<url-pattern>/mtaprojnoy2015</url-pattern>
 	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Exercise3</servlet-name>
+		<servlet-class>com.noyproj.javacourse.Exercise3</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Exercise3</servlet-name>
+		<url-pattern>/Exercise3</url-pattern>
+	</servlet-mapping>
+	
+	
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
