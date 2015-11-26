@@ -16,7 +16,7 @@ public class Calculator {
 	}
 	
 	public static double power (int base, int exp){
-		double result= java.lang.Math.pow(base, exp);
+		double result= Math.pow(base, exp);
 		return result;
 	}
 }
