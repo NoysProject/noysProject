@@ -15,7 +15,14 @@ public class Stock {
 	private static final int SELL = 1;
 	private static final int REMOVE = 2;
 	private static final int HOLD = 3;
-		
+	
+	public Stock(String symbol, float ask, float bid, Date date){
+		setSymbol(symbol);
+		setAsk(ask);
+		setBid(bid);
+		setDate(date);
+	}
+	
 	public String getSymbol() {
 		return symbol;
 	}

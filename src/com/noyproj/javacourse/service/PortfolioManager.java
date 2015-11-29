@@ -12,23 +12,11 @@ public class PortfolioManager {
 		
 		portfolio.setTitle("Noy's portfolio");
 		
-		Stock s1 = new Stock();
-		s1.setSymbol("PIH");
-		s1.setAsk((float)13.1);
-		s1.setBid((float)12.4);
-		s1.setDate(new Date("11/15/2014"));
+		Stock s1 = new Stock("PIH", (float)13.1, (float)12.4, new Date("11/15/2014"));
 		
-		Stock s2 = new Stock();
-		s2.setSymbol("AAL");
-		s2.setAsk((float)5.78);
-		s2.setBid((float)5.5);
-		s2.setDate(new Date("11/15/2014"));
+		Stock s2 = new Stock("AAL", (float)5.78, (float)5.5, new Date("11/15/2014"));
 		
-		Stock s3 = new Stock();
-		s3.setSymbol("CAAS");
-		s3.setAsk((float)32.2);
-		s3.setBid((float)31.5);
-		s3.setDate(new Date("11/15/2014"));
+		Stock s3 = new Stock("CAAS", (float)32.2, (float)31.5, new Date("11/15/2014"));
 		
 		portfolio.addStock(s1);
 		portfolio.addStock(s2);
