@@ -9,7 +9,13 @@ public class Stock {
 	private float bid;
 	private Date date;
 	SimpleDateFormat simpleDF = new SimpleDateFormat("MM/dd/yyyy");
-	
+	private int recommendation;
+	private int stockQuantity;
+	private static final int BUY = 0;
+	private static final int SELL = 1;
+	private static final int REMOVE = 2;
+	private static final int HOLD = 3;
+		
 	public String getSymbol() {
 		return symbol;
 	}
